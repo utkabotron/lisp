@@ -1,0 +1,20 @@
+# AutoCAD temporary files
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+*.tmp
+*~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.old
+backup/
