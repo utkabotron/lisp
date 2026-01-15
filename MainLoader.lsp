@@ -31,6 +31,7 @@
   "BL_Select_Blocks_On_Line.lsp"
   "BL_Insert_Block_To_Points.lsp"
   "AT_Attribute_Tools.lsp"
+  "AT_Attribute_Visibility.lsp"
   "PT_Point_Tools.lsp"
   "PT_Points_Intersection.lsp"
   "DV_Deviation_Tools.lsp"
