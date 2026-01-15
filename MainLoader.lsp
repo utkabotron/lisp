@@ -27,6 +27,7 @@
 (setq *lsp-files* '(
   "HK_Hotkeys.lsp"
   "BL_Block_Tools.lsp"
+  "BL_Copy_Attributes_Properties.lsp"
   "BL_Delete_Duplicate_Blocks.lsp"
   "BL_Select_Blocks_On_Line.lsp"
   "BL_Insert_Block_To_Points.lsp"
