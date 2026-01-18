@@ -48,8 +48,8 @@
     ;; Calculate the distance in XY only (in meters)
     (setq dDist2D (distance (xy-only insPt) (xy-only pNearest2D)))
 
-    ;; Format as Δ⊥=0.00 (always two decimals)
-    (setq valStr (strcat "\U+0394\U+22A5=" (fmt2 dDist2D)))
+    ;; Format as Δ┴=0.00 (always two decimals)
+    (setq valStr (strcat "\U+0394\U+2534=" (fmt2 dDist2D)))
 
     (setq tagFound nil)
     (foreach vAtt (vlax-invoke vBlock 'GetAttributes)
@@ -136,13 +136,13 @@
     ;; on circle (|off|<tol) -> no sign, value 0.00
     (cond
       ((< (abs1 off) tol)
-       (setq valStr (strcat "\U+0394\U+22A5=" (fmt2 0.0)))
+       (setq valStr (strcat "\U+0394\U+2534=" (fmt2 0.0)))
       )
       ((> off 0.0)
-       (setq valStr (strcat "\U+0394\U+22A5=+" (fmt2 (abs1 off))))
+       (setq valStr (strcat "\U+0394\U+2534=+" (fmt2 (abs1 off))))
       )
       (T
-       (setq valStr (strcat "\U+0394\U+22A5=-" (fmt2 (abs1 off))))
+       (setq valStr (strcat "\U+0394\U+2534=-" (fmt2 (abs1 off))))
       )
     )
 

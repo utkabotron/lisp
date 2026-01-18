@@ -23,10 +23,12 @@
 ;; PT_ - Point tools (точки)
 ;; DV_ - Deviation tools (отклонения)
 ;; LY_ - Layer tools (слои)
+;; UT_ - Utility tools (утилиты)
 
 (setq *lsp-files* '(
   "HK_Hotkeys.lsp"
   "BL_Block_Tools.lsp"
+  "BL_Copy_Attributes_Properties.lsp"
   "BL_Delete_Duplicate_Blocks.lsp"
   "BL_Select_Blocks_On_Line.lsp"
   "BL_Insert_Block_To_Points.lsp"
@@ -34,9 +36,11 @@
   "AT_Attribute_Visibility.lsp"
   "PT_Point_Tools.lsp"
   "PT_Points_Intersection.lsp"
+  "PT_Point_At_Block_Center.lsp"
   "DV_Deviation_Tools.lsp"
   "LY_Set_All_By_Layer.lsp"
   "LY_Xref_Layers.lsp"
+  "UT_Export_To_CSV.lsp"
 ))
 
 ;; Function to load individual LISP file
